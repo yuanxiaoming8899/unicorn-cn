@@ -1,56 +1,31 @@
-Unicorn Engine
-==============
-
-[![pypi downloads](https://pepy.tech/badge/unicorn)](https://pepy.tech/project/unicorn)
-[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/unicorn.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:unicorn)
-
-
-<p align="center">
-<img width="250" src="docs/unicorn-logo.png">
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-unicorn-engine" class="anchor" aria-hidden="true" tabindex="-1" href="#unicorn-engine"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">独角兽引擎</font></font></h1>
+<p dir="auto"><a href="https://pepy.tech/project/unicorn" rel="nofollow"><img src="https://camo.githubusercontent.com/bb92d421a173a61b0ecd03895809bc1bb211699bda4717fcacbf100abfab5fd1/68747470733a2f2f706570792e746563682f62616467652f756e69636f726e" alt="pypi下载" data-canonical-src="https://pepy.tech/badge/unicorn" style="max-width: 100%;"></a>
+<a href="https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&amp;can=1&amp;q=proj:unicorn" rel="nofollow"><img src="https://camo.githubusercontent.com/a44d1bce617efce6e7758a89e0d99d9c456846d688c2e60cf288d13aa85d1bea/68747470733a2f2f6f73732d66757a7a2d6275696c642d6c6f67732e73746f726167652e676f6f676c65617069732e636f6d2f6261646765732f756e69636f726e2e737667" alt="模糊测试状态" data-canonical-src="https://oss-fuzz-build-logs.storage.googleapis.com/badges/unicorn.svg" style="max-width: 100%;"></a></p>
+<p align="center" dir="auto">
+<a target="_blank" rel="noopener noreferrer" href="/unicorn-engine/unicorn/blob/master/docs/unicorn-logo.png"><img width="250" src="/unicorn-engine/unicorn/raw/master/docs/unicorn-logo.png" style="max-width: 100%;"></a>
 </p>
-
-Unicorn is a lightweight, multi-platform, multi-architecture CPU emulator framework, based on [QEMU](http://qemu.org).
-
-Unicorn offers some unparalleled features:
-
-- Multi-architecture: ARM, ARM64 (ARMv8), M68K, MIPS, PowerPC, RISCV, SPARC, S390X, TriCore and X86 (16, 32, 64-bit)
-- Clean/simple/lightweight/intuitive architecture-neutral API
-- Implemented in pure C language, with bindings for Crystal, Clojure, Visual Basic, Perl, Rust, Ruby, Python, Java, .NET, Go, Delphi/Free Pascal, Haskell, Pharo, and Lua.
-- Native support for Windows & *nix (with Mac OSX, Linux, Android, *BSD & Solaris confirmed)
-- High performance via Just-In-Time compilation
-- Support for fine-grained instrumentation at various levels
-- Thread-safety by design
-- Distributed under free software license GPLv2
-
-Further information is available at http://www.unicorn-engine.org
-
-
-License
--------
-
-This project is released under the [GPL license](COPYING).
-
-
-Compilation & Docs
-------------------
-
-See [docs/COMPILE.md](docs/COMPILE.md) file for how to compile and install Unicorn.
-
-More documentation is available in [docs/README.md](docs/README.md).
-
-
-Contact
--------
-
-[Contact us](http://www.unicorn-engine.org/contact/) via mailing list, email or twitter for any questions.
-
-
-Contribute
-----------
-
-If you want to contribute, please pick up something from our [Github issues](https://github.com/unicorn-engine/unicorn/issues).
-
-We also maintain a list of more challenged problems in [milestones](https://github.com/unicorn-engine/unicorn/milestones) for our regular release.
-
-[CREDITS.TXT](CREDITS.TXT) records important contributors of our project.
-
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Unicorn是一个轻量级、多平台、多架构的CPU仿真器框架，基于</font></font><a href="http://qemu.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">QEMU</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Unicorn 提供了一些无与伦比的功能：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多架构：ARM、ARM64 (ARMv8)、M68K、MIPS、PowerPC、RISCV、SPARC、S390X、TriCore 和 X86（16、32、64 位）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干净/简单/轻量级/直观的架构中立 API</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用纯 C 语言实现，绑定了 Crystal、Clojure、Visual Basic、Perl、Rust、Ruby、Python、Java、.NET、Go、Delphi/Free Pascal、Haskell、Pharo 和 Lua。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对 Windows 和 *nix 的本机支持（已确认 Mac OSX、Linux、Android、*BSD 和 Solaris）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过即时编译实现高性能</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持各个级别的细粒度检测</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">线程安全设计</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据自由软件许可证 GPLv2 分发</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息请访问</font></font><a href="http://www.unicorn-engine.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.unicorn-engine.org</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目是在</font></font><a href="/unicorn-engine/unicorn/blob/master/COPYING"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPL 许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下发布的。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-compilation--docs" class="anchor" aria-hidden="true" tabindex="-1" href="#compilation--docs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编译及文档</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="/unicorn-engine/unicorn/blob/master/docs/COMPILE.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docs/COMPILE.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件了解如何编译和安装 Unicorn。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多文档可以在</font></font><a href="/unicorn-engine/unicorn/blob/master/docs/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docs/README.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中找到。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contact" class="anchor" aria-hidden="true" tabindex="-1" href="#contact"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接触</font></font></h2>
+<p dir="auto"><a href="http://www.unicorn-engine.org/contact/" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如有任何问题，请通过邮件列表、电子邮件或 Twitter</font><a href="http://www.unicorn-engine.org/contact/" rel="nofollow"><font style="vertical-align: inherit;">联系我们。</font></a></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contribute" class="anchor" aria-hidden="true" tabindex="-1" href="#contribute"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/unicorn-engine/unicorn/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想做出贡献，请从我们的Github issues</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中获取一些内容</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们还在定期发布的</font></font><a href="https://github.com/unicorn-engine/unicorn/milestones"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">里程碑</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中维护了一份更具挑战性的问题列表。</font></font></p>
+<p dir="auto"><a href="/unicorn-engine/unicorn/blob/master/CREDITS.TXT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CREDITS.TXT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">记录了我们项目的重要贡献者。</font></font></p>
+</article></div>
